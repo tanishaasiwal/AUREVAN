@@ -1,6 +1,3 @@
-export default function GoogleIcon() {
-  return <span aria-hidden="true">G</span>;
-}
 export function GoogleIcon({ className = "h-5 w-5" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
